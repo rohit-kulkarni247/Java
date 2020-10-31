@@ -1,0 +1,33 @@
+import java.awt.*;
+
+import javax.swing.*;
+
+
+public class timepass {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		ABC obj=new ABC();
+	}
+
+}
+
+class ABC extends JFrame{
+	JTextField t1,t2;
+	JButton b;
+	
+	public ABC() {
+		t1=new JTextField(25);
+		t2=new JTextField(25);
+		b=new JButton("Submit");
+		setLayout(new FlowLayout());
+		JLabel l=new JLabel("Hello world");
+		add(t1);
+		add(t2);
+		add(b);
+		add(l);
+		setVisible(true);
+		setSize(400,400);
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+	}
+}

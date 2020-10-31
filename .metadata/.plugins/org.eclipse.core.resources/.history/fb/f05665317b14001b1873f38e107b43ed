@@ -1,0 +1,13 @@
+import java.io.*;
+import java.net.*;
+import java.sql.ResultSet;
+import java.util.*;
+
+import javax.swing.JOptionPane;
+
+public class Client {
+	
+	public static void main(String[] arg) {
+		new Splash();
+	}
+}

@@ -1,0 +1,18 @@
+
+public class timepass {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		ABC obj=new ABC();
+	}
+
+}
+
+public class ABC extends Jframe{
+	public ABC() {
+		Jlabel l=new Jlabel("Hello world");
+		add(l);
+		setVisible(true);
+		setSize(400,400);
+	}
+}
